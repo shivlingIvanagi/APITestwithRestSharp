@@ -8,6 +8,7 @@ using NUnit.Framework;
 namespace ApiTestFramework.Tests
 {
     [TestFixture]
+    [Parallelizable(ParallelScope.All)]
     [Category("Photos")]
     public class PhotoTests : BaseTest
     {

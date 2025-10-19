@@ -8,6 +8,7 @@ namespace ApiTestFramework.Tests
 {
     [TestFixture]
     [Category("Users")]
+    [Parallelizable(ParallelScope.All)]
     public class UserTests : BaseTest
     {
         private UserService _userService;

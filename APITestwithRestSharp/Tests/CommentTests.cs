@@ -8,6 +8,7 @@ using NUnit.Framework;
 namespace ApiTestFramework.Tests
 {
     [TestFixture]
+    [Parallelizable(ParallelScope.All)]
     [Category("Comments")]
     public class CommentTests : BaseTest
     {
